@@ -1,5 +1,6 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import { ThemeProvider } from './context/ThemeContext';
+import { Analytics } from '@vercel/analytics/react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Navbar from './components/NavBar';
 import Footer from './components/Footer';
@@ -32,6 +33,7 @@ function App() {
 
           <Footer />
         </div>
+        <Analytics />
       </Router>
     </ThemeProvider>
   );
