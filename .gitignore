@@ -23,8 +23,3 @@ yarn-debug.log*
 yarn-error.log*
 
 
-# Ignore certificate images
-src/assets/certificates/
-src/assets/sudeep_img.png
-src/assets/sudeepCVNew.pdf
-
