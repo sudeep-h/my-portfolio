@@ -4,6 +4,7 @@ import { Analytics } from '@vercel/analytics/react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Navbar from './components/NavBar';
 import Footer from './components/Footer';
+import TitleManager from './components/TitleManager';
 import Home from './pages/Home';
 import About from './pages/About';
 import Projects from './pages/Projects';
@@ -16,6 +17,7 @@ function App() {
   return (
     <ThemeProvider>
       <Router>
+        <TitleManager />
         <div className="d-flex flex-column min-vh-100">
           <Navbar />
 
